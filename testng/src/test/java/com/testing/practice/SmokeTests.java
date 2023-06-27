@@ -24,7 +24,7 @@ public class SmokeTests {
     @Test
     public void test1(){
         String s1= "Selenium";
-        String s2= "Selenium webdriver";
+        String s2= "Selenium1";
         Assert.assertEquals(s1, s2);
 
     }
