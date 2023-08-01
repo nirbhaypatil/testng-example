@@ -21,11 +21,21 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.4.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>3.141.59</version>
     </dependency>
-
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.4.0</version>
+    </dependency>
   </dependencies>
   <build>
   <plugins>
@@ -34,9 +44,17 @@
       <artifactId>maven-surefire-plugin</artifactId>
       <version>3.1.2</version>
       <configuration>
-        <suiteXmlFiles>s
-          <suiteXmlFile>testng-classname.xml</suiteXmlFile>
+        <suiteXmlFiles>
+          <!-- <suiteXmlFile>testng-classname.xml</suiteXmlFile>
           <suiteXmlFile>testng-packagename.xml</suiteXmlFile>
+          <suiteXmlFile>testng-methodOverload.xml</suiteXmlFile>
+          <suiteXmlFile>testng-testannotation.xml</suiteXmlFile>
+          <suiteXmlFile>testng-testpriority.xml</suiteXmlFile>
+          <suiteXmlFile>testng-threadlocalusage.xml</suiteXmlFile>
+          <suiteXmlFile>testng-inheritance.xml</suiteXmlFile>
+          <suiteXmlFile>testng-alwaysrun.xml</suiteXmlFile>
+          <suiteXmlFile>testng-groups.xml</suiteXmlFile> -->
+          <suiteXmlFile>testng.xml</suiteXmlFile>
         </suiteXmlFiles>
       </configuration>
     </plugin>
