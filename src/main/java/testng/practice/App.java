@@ -1,4 +1,4 @@
-package com.testing.practice;
+package testng.practice;
 
 /**
  * Hello world!

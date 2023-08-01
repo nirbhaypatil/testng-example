@@ -1,5 +1,5 @@
 
-package com.testing.practice;
+package testng.practice;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;

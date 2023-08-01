@@ -3,8 +3,8 @@
 <suite name="Suite">
     <test thread-count="5" name="Test">
         <classes>
-            <class name="com.testing.practice.RegressionTests" />
-            <class name="com.testing.practice.SmokeTests" />
+            <class name="testng.practice.RegressionTests" />
+            <class name="testng.practice.SmokeTests" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
