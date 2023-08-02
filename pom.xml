@@ -49,11 +49,11 @@
           <suiteXmlFile>testng-packagename.xml</suiteXmlFile>
           <suiteXmlFile>testng-methodOverload.xml</suiteXmlFile>
           <suiteXmlFile>testng-testannotation.xml</suiteXmlFile>
-          <suiteXmlFile>testng-testpriority.xml</suiteXmlFile>
-          <suiteXmlFile>testng-threadlocalusage.xml</suiteXmlFile>
-          <suiteXmlFile>testng-inheritance.xml</suiteXmlFile>
+          <suiteXmlFile>testng-testpriority.xml</suiteXmlFile> -->
+          <suiteXmlFile>testng-threadlocalusage.xml</suiteXmlFile> -->
+          <!-- <suiteXmlFile>testng-inheritance.xml</suiteXmlFile>
           <suiteXmlFile>testng-alwaysrun.xml</suiteXmlFile>
-          <suiteXmlFile>testng-groups.xml</suiteXmlFile> -->
+          <suiteXmlFile>testng-groups.xml</suiteXmlFile>
           <suiteXmlFile>testng.xml</suiteXmlFile>
         </suiteXmlFiles>
       </configuration>

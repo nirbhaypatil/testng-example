@@ -1,13 +1,20 @@
 package steps;
 
+import ThreadLocalUsageSelenium.DriverFactory;
 import io.cucumber.java.en.*;
+import pages.GoogleHome;
 
 public class CommonSteps {
 
+    GoogleHome googleHome;
+    public CommonSteps(){
+        googleHome = new GoogleHome(DriverFactory.getDriver());
+    }
 
     @When("I launch google")
     public void i_launch_google() {
         // Write code here that turns the phrase above into concrete actions
+
 
     }
     @When("I search for BDD")
