@@ -18,7 +18,6 @@ public class TestCases {
     @Test
     public void launchGoogle() throws InterruptedException {
         System.out.println( "----------launch Google-----------------------");
-
         DriverFactory.getDriver().get("https://www.google.com");
         System.out.println("Google browser thread id is opened by  "+Thread.currentThread().getId());
 
