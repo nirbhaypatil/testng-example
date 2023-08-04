@@ -32,4 +32,4 @@ jobs:
       with:
         maven-version: 3.6.3  
     - name: Dry run cucumber tests 
-      run: mvn clean test -Dcucumber.execution.dry-run=false
+      run: mvn clean test -Dsuite=testng-parameter.xml
