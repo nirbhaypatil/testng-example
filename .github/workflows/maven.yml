@@ -15,18 +15,17 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  test:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repo 
-    - uses: actions/checkout@v1
+      uses: actions/checkout@v1
     
     - name: Set up JDK 
-    - uses: actions/setup-java@v1
+      uses: actions/setup-java@v1
       with:
         java-version: '11'
         
     - name: Dry run cucumber tests 
-    - run: mvn clean test -Dcucumber.execution.dry-run=false
+      run: mvn clean test -Dcucumber.execution.dry-run=false
