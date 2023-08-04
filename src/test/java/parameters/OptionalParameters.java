@@ -10,6 +10,7 @@ public class OptionalParameters {
     @Parameters({"browser","version"})
     public void testMethod(@Optional String browser , @Optional String version){
         System.out.println("Passed "+browser+" and version is "+version);
+        System.out.println("------------------------------------------");
 
     }
 
@@ -24,6 +25,7 @@ public class OptionalParameters {
     @Parameters({ "browser","version"})
     public void optionalParamterMethod(@Optional("b") String browser, @Optional("v") String version){
         System.out.println("Passed "+browser+" and version is "+version);
+        System.out.println("------------------------------------------");
 
     }
 }
