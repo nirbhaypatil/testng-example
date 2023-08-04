@@ -13,6 +13,13 @@ public class OptionalParameters {
 
     }
 
+    /**
+     *
+     * Checks default value overrides null value
+     *
+     * @param browser
+     * @param version
+     */
     @Test
     @Parameters({ "browser","version"})
     public void optionalParamterMethod(@Optional("b") String browser, @Optional("v") String version){
