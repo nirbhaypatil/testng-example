@@ -58,7 +58,7 @@
           <!-- <suiteXmlFile>testng-inheritance.xml</suiteXmlFile>
           <suiteXmlFile>testng-alwaysrun.xml</suiteXmlFile>
           <suiteXmlFile>testng-groups.xml</suiteXmlFile>
-          <suiteXmlFile>testng-x.xml</suiteXmlFile> -->
+          <suiteXmlFile>testng.xml</suiteXmlFile> -->
         </suiteXmlFiles>
       </configuration>
     </plugin>
