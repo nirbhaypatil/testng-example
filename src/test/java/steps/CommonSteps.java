@@ -14,7 +14,7 @@ public class CommonSteps {
     @When("I launch google")
     public void i_launch_google() {
         // Write code here that turns the phrase above into concrete actions
-
+        googleHome.launchApplication();
 
     }
     @When("I search for BDD")

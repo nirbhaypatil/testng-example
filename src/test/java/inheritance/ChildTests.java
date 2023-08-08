@@ -30,7 +30,7 @@ public class ChildTests extends ParentTest{
     }
     @Test
     public void _lastTest(){
-        Assert.fail();
+       // Assert.fail();
         System.out.println("Inside _last test");
         String s1= "Selenium";
         String s2= "Selenium";

@@ -9,9 +9,9 @@ public class TestCases {
 
     @BeforeMethod
     public void setUpBrowser(){
-        DriverFactory driverFactory = new DriverFactory();
-        driverFactory.setDriver();
-        System.out.println("Inside before method");
+
+        DriverFactory.setDriver();
+        System.out.println("Inside before method "+Thread.currentThread().getId());
      //   System.out.println( driver.get() +"-------------------------------------------");
     }
 

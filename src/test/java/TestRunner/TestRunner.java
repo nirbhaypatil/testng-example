@@ -21,9 +21,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 
     @BeforeMethod
     public void setUp() {
-        driverFactory = new DriverFactory();
-
-        driverFactory.setDriver();
+        DriverFactory.setDriver();
         System.out.println("Inside before method");
     }
     @DataProvider(parallel = true)
@@ -33,6 +31,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     }
     @AfterMethod
     public void tear(){
-        driverFactory.getWebDriver().quit();
+        DriverFactory.getDriver().close();
     }
 }

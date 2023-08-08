@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="methods">
     <test  name="Test" parallel="methods" thread-count="2">
         <classes>
-            <class name="DataProvider.DataProviderTest" />
+            <class name="dataProvider.DataProviderTest" />
         </classes>
 
     </test> <!-- Test -->
