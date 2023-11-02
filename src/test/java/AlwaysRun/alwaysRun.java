@@ -12,15 +12,13 @@ public class alwaysRun {
         Assert.fail();
     }
 
-    // This method will run only if method1 is passed. If method1 is failed or
-    // skipped, method2 will not run.
+	// alwaysRun attribute will override dependsOnMethods if dependent method is failed or skipped
     @Test(dependsOnMethods = "method1" ,alwaysRun=true)
     public void method2() {
         System.out.println("Method 2");
     }
 
-    // Since method1 will fail, so method2 will be skipped. Since method2 is skipped, method3 will also be skipped as
-    // method3 is dependent on method2
+	// alwaysRun attribute will override dependsOnMethods if dependent method is failed or skipped
     @Test(dependsOnMethods = "method2" ,alwaysRun=true)
     public void method3() {
         System.out.println("Method 3");
